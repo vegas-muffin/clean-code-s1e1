@@ -93,7 +93,7 @@ input[type="text"] {
   height: 21px;
   padding: 0 9px;
   border: 1px solid #ddd;
-  background: #FFF;
+  background: #fff;
   border-radius: 6px;
   font-family: lato, sans-serif;
   color: #888;
@@ -152,12 +152,12 @@ li > .main__btn-delete:hover {
 
 .main__btn-delete img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
 .main__btn-delete img:hover {
-  transform: rotateZ(0);
+  transform: rotatez(0);
 }
 
 /* Completed */
