@@ -21,7 +21,7 @@
 	</header>
     <main class="main">
 	  <section class="main__add-item">
-	    <p class="main__block" id="topSectionForAddingElementToList">
+	    <p class="main__block">
 	      <label class="main__title" for="new-task">Add Item</label>
 	        <div class="main__wrapper">
 	          <input class="main__task" id="new-task" type="text">
@@ -31,14 +31,14 @@
 	  </section>
 	  <section class="main__todo">
 	    <h3 class="main__title">Todo</h3>
-        <ul class="main__complete-tasks" id="incompleteTasks">
+        <ul class="main__complete-tasks" id="incomplete-tasks">
           <li class="main__item">  
 	        <input class="main__checkbox" type="checkbox">
 	        <label class="main__task-title">Pay Bills</label>
 	        <input class="main__input" type="text">
 	        <button class="main__btn main__btn-edit">Edit</button>
 	        <button class="main__btn main__btn-delete">
-			  <img src="./remove.svg" alt="remove icon todo">
+			  <img class="main__image" src="./remove.svg" alt="remove icon todo">
 			</button>
 	      </li>
           <li class="main__item main__edit_mode">
@@ -47,7 +47,7 @@
 		    <input class="main__input" type="text" value="Go Shopping">
 	        <button class="main__btn main__btn-edit">Save</button>
 	        <button class="main__btn main__btn-delete">
-			  <img src="./remove.svg" alt="remove icon todo">
+			  <img class="main__image" src="./remove.svg" alt="remove icon todo">
 			</button>
 	      </li>
         </ul>
@@ -61,7 +61,7 @@
 		    <input class="main__input" type="text">
 		    <button class="main__btn main__btn-edit">Edit</button>
 		    <button class="main__btn main__btn-delete">
-			  <img src="./remove.svg" alt="remove icon complited">
+			  <img class="main__image" src="./remove.svg" alt="remove icon complited">
 			</button>
 	      </li>
         </ul>
